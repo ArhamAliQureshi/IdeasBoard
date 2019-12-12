@@ -1,16 +1,19 @@
 const intialState = {
     counter: 0,
-    ideasList: []
+    ideasList: [],
+    notification: {}
 }
 
 function rootReducer(state = intialState, action) {
     switch (action.type) {
         case 'STORE_ALL_IDEAS':
-            return {...state, counter: action.ideasList.length ,ideasList: action.ideasList}
-        case 'ADD_IDEA':
-            return { ...state, counter: action.counter };
-        case 'DELETE_IDEA':
-            return { ...state, counter: action.counter };
+            return {...state, ...action, counter: action.ideasList.length}
+        case 'ADD_IDEA_ASYNC':
+            return { ...state, ...action, counter: action.ideasList.length};
+        case 'DELETE_IDEA_ASYNC':
+            return { ...state, ...action, counter: action.ideasList.length};
+        case 'UPDATE_IDEA_ASYNC':
+            return { ...state, ...action, counter: action.ideasList.length };
         default:
             return state
     }
