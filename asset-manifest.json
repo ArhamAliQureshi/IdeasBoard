@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/idesBoard/static/css/main.d1b05096.chunk.css",
+    "main.js": "/idesBoard/static/js/main.c9e97c2a.chunk.js",
+    "main.js.map": "/idesBoard/static/js/main.c9e97c2a.chunk.js.map",
+    "runtime-main.js": "/idesBoard/static/js/runtime-main.c9e10162.js",
+    "runtime-main.js.map": "/idesBoard/static/js/runtime-main.c9e10162.js.map",
+    "static/js/2.5a58b314.chunk.js": "/idesBoard/static/js/2.5a58b314.chunk.js",
+    "static/js/2.5a58b314.chunk.js.map": "/idesBoard/static/js/2.5a58b314.chunk.js.map",
+    "index.html": "/idesBoard/index.html",
+    "precache-manifest.78ee8092c52052f3fd3e129617a1ffac.js": "/idesBoard/precache-manifest.78ee8092c52052f3fd3e129617a1ffac.js",
+    "service-worker.js": "/idesBoard/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/idesBoard/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.5a58b314.chunk.js.LICENSE": "/idesBoard/static/js/2.5a58b314.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9e10162.js",
+    "static/js/2.5a58b314.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.c9e97c2a.chunk.js"
+  ]
+}
