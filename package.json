@@ -1,8 +1,8 @@
 {
-  "name": "ideas-sharing-board",
+  "name": "ideas",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ArhamAliQureshi.github.io/idesBoard",
+  "homepage": "https://ArhamAliQureshi.github.io/ideas",
   "dependencies": {
     "@material-ui/core": "^4.7.2",
     "@material-ui/icons": "^4.5.1",
